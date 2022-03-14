@@ -1,16 +1,18 @@
 {
-  "name": "test-soft-easy",
+  "name": "test-softeasy-back",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon ./src/index.js",
+    "swagger-autogen": "node ./swagger.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/higor-d3v/test-softeasy-back.git"
   },
-  "author": "higor-d3v",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/higor-d3v/test-softeasy-back/issues"
@@ -19,9 +21,13 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3",
-    "nodemon": "^2.0.15",
     "pg": "^8.7.3",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "swagger-autogen": "^2.19.0",
+    "swagger-ui-express": "^4.3.0"
   }
 }
