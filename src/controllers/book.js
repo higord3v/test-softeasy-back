@@ -2,7 +2,7 @@ const database = require("../ORM/conexao");
 const Book = require("../ORM/book");
 
 database.sync().then((response) => {
-  console.log(response);
+  console.log('syncronized');
 });
 
 const insertBook = async (req, res) => {
