@@ -88,6 +88,12 @@
       "put": {
         "description": "Atualizar Livro",
         "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
            {
             "name": "body",
             "in": "body",
