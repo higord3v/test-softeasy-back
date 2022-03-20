@@ -1,4 +1,5 @@
 # API REST para desafio técnico Softeasy
+## Deploy: https://softeasy-bookshop-api.herokuapp.com/api-docs/
 
 ### Como instalar
 
